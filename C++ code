@@ -14,6 +14,7 @@ operator int()  //Basic to class type conversion
 			this->i=p;
 			
 		}
+//Samuel jain 2110991820
 	void setrange()
 	{
 		if (i > 100)
