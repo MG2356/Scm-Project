@@ -25,6 +25,7 @@ operator int()  //Basic to class type conversion
 		cout<<i;
 	}
 };
+/*Prabhmeet Singh 2110991789*/
 int main(){
 	number obj = 50 ; //autoboxing
 	obj.setrange();
