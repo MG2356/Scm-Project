@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+class number
+{
+	int i ;
+public:
+//Munish Goel 2110994506
+operator int()  //Basic to class type conversion 
+	{  cout<<endl;
+	return i ;
+	}
+		number( int p=0)
+		{
+			this->i=p;
+			
+		}
+//Samuel jain 2110991820
+	void setrange()
+	{
+		if (i > 100)
+		i=-15;
+	
+	}
+	void printnumber(){
+		cout<<i;
+	}
+};
+/*Prabhmeet Singh 2110991789*/
+int main(){
+	number obj = 50 ; //autoboxing
+	obj.setrange();
+	obj.printnumber(); 
+	int y = obj ; //unboxing 
+	cout<<y;
+}
