@@ -27,6 +27,7 @@ operator int()  //Basic to class type conversion
 };
 /*Prabhmeet Singh 2110991789*/
 int main(){
+
 	number obj = 50 ; //autoboxing
 	obj.setrange();
 	obj.printnumber(); 
