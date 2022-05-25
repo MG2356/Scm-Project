@@ -4,6 +4,7 @@ class number
 {
 	int i ;
 public:
+//Munish Goel 2110994506
 operator int()  //Basic to class type conversion 
 	{  cout<<endl;
 	return i ;
